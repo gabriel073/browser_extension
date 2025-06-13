@@ -3,10 +3,9 @@ import Home from './components/Home'
 import MainCards from './components/MainCards'
 
 function App() {
-
   return (
     <>
-      <div className="flex flex-col">
+      <div className="flex flex-col ">
         {/* Extensions List All Active Inactive
 
     If you plan to use the JSON file to populate the data dynamically, you can delete the content below 

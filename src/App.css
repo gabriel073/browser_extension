@@ -1,6 +1,15 @@
 #root {
-  max-width: 1280px;
-
+  max-width: 1440px;
   padding: 2rem;
   text-align: center;
+
+  /* linear-gradient(180deg, #040918 0%, #091540 100%); */
+}
+
+/* medias queries  */
+
+@media screen and (max-width: 468px) {
+  #root {
+    max-width: 375px;
+  }
 }

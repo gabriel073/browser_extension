@@ -33,6 +33,8 @@ The designs were created to the following widths:
 - **Light Gradient**: `linear-gradient(180deg, #EBF2FC 0%, #EEF8F9 100%)`
 - **Dark Gradient**: `linear-gradient(180deg, #040918 0%, #091540 100%)`
 
+bg-gradient-to-b from-[#040918] to-[#091540]
+
 ## Typography
 
 ### Body Copy

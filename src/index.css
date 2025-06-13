@@ -4,13 +4,33 @@
   font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
-
-  color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
-
+  /* background-color:; */
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+body {
+  background: linear-gradient(180deg, #040918 0%, #091540 100%);
+}
+:root {
+  --color-Neutral900: hsl(227, 75%, 14%);
+  --color-Neutral800: hsl(226, 25%, 17%);
+  --color-Neutral700: hsl(225, 23%, 24%);
+  --color-Neutral600: hsl(226, 11%, 37%);
+  --color-Neutral300: hsl(0, 0%, 78%);
+  --color-Neutral200: hsl(217, 61%, 90%);
+  --color-Neutral100: hsl(0, 0%, 93%);
+  --color-Neutral0: hsl(200, 60%, 99%);
+
+  --color-Red400: hsl(3, 86%, 64%);
+  --color-Red500: hsl(3, 71%, 56%);
+  --color-Red700: hsl(3, 77%, 44%);
+
+  --color-gradient: linear-gradient(180deg, #ebf2fc 0%, #eef8f9 100%);
+  --color-darkGradient: linear-gradient(180deg, #040918 0%, #091540 100%);
+}
+
+.clip-rect {
+  clip-path: inset(10px 10px 10px 10px) !important; /* top right bottom left */
 }
